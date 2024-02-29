@@ -1,0 +1,117 @@
+.dues-contain{
+    background: url(../../Assets/300.jpg);
+    background-size: cover;
+}
+.dues-box-area{
+ width: 930px;
+ margin: 40px 0;
+ max-width: 1400px;
+ background: #fff;
+
+}
+
+.dues-left-box{
+ background-color: rgb(6, 59, 6);
+ background-image: url(../../Assets/nfc-technology-concept-illustration_114360-14387.png);
+ background-blend-mode: overlay;
+ background-size: cover;
+ background-repeat: no-repeat;
+ border-bottom-left-radius: 25px;
+ border-top-left-radius: 25px;
+}
+.dues-sbtxt1{
+    color: #fff !important;
+    font-size: 40px;
+    font-weight: 600;
+    }
+    .dues-sbtxt2{
+        text-align: left;
+        font-size: 18px;
+        color: aliceblue !important;
+        }
+.dues-right-box{
+ padding: 20px 30px 40px 40px;
+}
+ .dues-input{
+ outline: none;
+ border: none;
+ box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .08);
+ margin-bottom: 10px;
+ padding-left: 2rem;
+ background-color: rgba(110, 235, 137, 0.808);
+ color: rgb(61, 58, 58);
+     
+ }
+ .dues-control{
+    outline: none;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: rgba(110, 235, 137, 0.808) !important;
+    margin-bottom: 10px;
+    padding-left: 2rem;
+    border-bottom-left-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+    color: rgb(61, 58, 58) !important;
+
+}
+.dues-header-text h2{
+ font-size: 30px;
+ color: rgb(34, 94, 34);
+ font-weight: 600;
+}
+.dues-header-text p{
+ font-size: 16px;
+ color: orange;
+ font-weight: 500;
+}
+::placeholder{
+ font-size: 14px;
+ text-transform: capitalize;
+
+}
+
+.dues-btn{
+     border-radius: 0.3rem;
+     color: #FFF !important;
+     background: rgb(34, 94, 34) !important;
+     box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .08);
+     cursor: pointer;
+     border: none;
+     text-align: center;
+     width: 100%;
+     font-size: 12px;
+     letter-spacing: 0.1rem;
+     text-transform: uppercase;
+     font-weight: bold;
+     height: 35px;
+}
+
+
+@media screen and (max-width: 768px) {
+ .dues-box-area{
+     margin: 40px 0;
+     width: 100%;
+ }
+ .dues-left-box{
+     width: 100%;
+     display: flex;
+     padding: 20px 10px;
+     border-top-right-radius: 25px;
+     border-bottom-left-radius: 0px;
+
+ }
+ .dues-right-box{
+     padding: 20px;
+ }
+}
+
+@media screen and (max-width: 460px) {
+    .dues-sbtxt1{
+        font-size: 32px;
+        }
+        .dues-sbtxt2{
+            font-size: 16px;
+            }
+     
+}

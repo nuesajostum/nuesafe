@@ -1,0 +1,112 @@
+.overview-container{
+   padding: 0%;
+   background: rgb(34, 94, 34);
+}
+.overview-box-area{
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+}
+.overview-left-box{
+    background-color: #191919;
+    margin-left: 0;
+    padding: 5% 5%;
+    }
+
+.overview h2{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.overview h5{
+    color: orangered;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.overview p{
+    color: rgba(240, 252, 220, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+
+.over-img-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+    align-items: center;
+    margin-top: 4.2rem;
+    margin: auto;
+    width: 100%;
+ }
+ .over-img-row img{
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+ }
+ .over-img-row{
+    background: rgba(231, 240, 231, 0.555);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .3);
+    transition: all .50s ease;
+ }
+
+/******************** mission and core values *******************/
+.mission-container{
+    padding: 0%;
+    background-image: url(../../Assets/white-background-7425603.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .mission-box-area{
+     max-width: 1400px;
+     margin: auto;
+     width: 100%;
+ }
+ .mission{
+     margin-left: 0;
+     padding: 5% 10%;
+     
+     }
+ 
+ .mission-text h2{
+    color: #c5a30b;
+     font-size: 40px;
+     text-transform: capitalize;
+     margin-bottom: 50px;
+ }
+ 
+ .mission-text p{
+     color: rgb(34, 94, 34);
+     letter-spacing: 1px;
+     line-height: 24px;
+     text-align: left;
+     font-size: 18px;
+     margin-bottom: 25px;
+ 
+ }
+ 
+
+/******************** constitution *******************/
+#topics{
+    background: url(../../Assets/rm222-mind-19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+.inFo{
+    font-size: 12px;
+    color: #efefef !important;
+}
+
+.text-center{
+    padding-top: 40px;
+}

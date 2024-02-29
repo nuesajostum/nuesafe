@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&ampdisplay=swap');
+  
+  :root{
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', poppins;
+  }
+
+  /*********************** NAVBAR ******************************/
+  .navbar{
+    background: rgb(1, 36, 1);
+  }
+  .logo{
+    height: 3rem;
+  }
+  
+  /*********************** NAVBAR links *******************************/
+  nav{
+    z-index: 1;
+  }
+ 
+  nav a.nav-link{
+    cursor: pointer;
+    letter-spacing: 0.013rem;
+  }
+
+  nav ul li{
+    text-transform: uppercase;
+  }
+  
+  .nav-link {
+    margin-right: 1rem;
+    color: var(--primary-white) !important;
+  }
+
+  .navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+  }
+
+  .navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus{
+   border-bottom: 0.1rem solid var(--primary-orange);
+  }
+
+  .navbar-nav > li > a:hover{
+    border-bottom: 0.1rem solid var(--primary-orange);
+   }
+  
+   .login-Nav{
+    margin-right: 0.75rem;
+    text-decoration: none;
+    color: orange;
+    display: flex;
+
+   }
+
+   .login-Nav:hover{
+    color: #fff;
+   }
+  
+   .btn-Signup{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.75rem 0.3rem 0.75rem;
+
+   }
+
+   .btn-Signup:hover{
+    background-color: orange;
+    color: black;
+   }
+
+
+
+   #tsparticles{
+    background-color: #f9ab00;
+   }
+   /*---------------------------- About Us ------------------------------*/
+
+
+   /************** @Media screen *********************/
+
+   @media screen and (max-width: 991px) {
+    .login-Nav{
+      padding-bottom: 10px;
+    }
+   }
+
+   @media screen and (max-width: 435) {
+    .AlumniTitle{
+        font-size: 30px;
+    }
+}
+
+
+  
+
+
+   

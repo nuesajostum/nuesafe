@@ -1,0 +1,123 @@
+.login-contain{
+       background: url(../../Assets/300.jpg);
+       background-size: cover;
+}
+.box-area{
+    background: rgb(235, 243, 252);
+    margin: 40px 0;
+    max-width: 1400px;
+}
+
+.left-box{
+    background-color: rgb(23, 80, 23);
+    background-image: url(../../Assets/security-concept-illustration_114360-497.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.featured-image img{
+    height: auto;
+    width: 50rem;
+    max-width: 100%;
+    border-radius: 25px;
+    opacity: 50%;
+}
+.login-error{
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.sbtxt1{
+    font-weight: 600;
+    color: #fff !important;
+}
+.sbtxt2{
+    width: 17rem;
+    color: #fff !important;
+}
+.right-box{
+    padding: 20px 30px 40px 40px;
+}
+input{
+    background: none;
+}
+    .login-flex{
+        .icon{
+            color: #444242;
+        }
+
+        input{
+            outline: none;
+            width: 95.6%;
+            border: none;
+            background: none;
+            color: rgb(11, 12, 12) !important;
+            border-radius: 0.3rem;
+           
+
+        }
+        .input{
+            background: rgb(81, 245, 135) !important;
+            box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .08);
+            border-radius: 0.3rem;
+            padding-left: 20px;
+            margin-top: 20px;
+            outline: none;
+           
+            border: none;
+            border-radius: 0.3rem;
+        }
+    }
+.login-header-text h2{
+    font-size: 30px;
+    color: rgb(34, 94, 34);
+    font-weight: 600;
+}
+.login-header-text p{
+    font-size: 16px;
+    color: rgb(223, 108, 0);
+    font-weight: 500;
+}
+::placeholder{
+    font-size: 14px;
+    text-transform: capitalize;
+
+}
+
+.login-btn{
+        border-radius: 0.3rem;
+        color: #FFF !important;
+        background: rgb(34, 94, 34) !important;
+        box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .08);
+        cursor: pointer;
+        border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .box-area{
+        margin: 40px 0;
+        width: 100%;
+    }
+    .left-box{
+        text-align: center;
+        padding-bottom: 400px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+    }
+    .right-box{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .login-flex{
+        input{
+        width: 90%;
+        }
+    }
+    
+}

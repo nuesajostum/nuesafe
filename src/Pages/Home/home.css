@@ -1,0 +1,483 @@
+.homeContent{
+    height: 100vh;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0px 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../../Assets/3399719.jpg);
+    background-size: cover;
+    
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 200;
+    color:  rgb(255, 255, 255);
+}
+.homeName{
+    
+    color: #c5650b;
+
+}
+.homeText{
+    color: #ffffff;
+}
+.homePara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #c5a30b;
+    padding-bottom: 30px;
+}
+.btn{
+    background: rgb(255, 255, 255);
+    margin: 1rem 0;
+    padding: 0.4rem 1rem;
+    border: 2px solid rgb(228, 215, 209);
+    border-radius: .3rem;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: #191919;
+    background: rgb(252, 252, 252);
+}
+
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+.aboutme{
+    width: 100%;
+    padding: 80px 20px;
+    background: url(../../Assets/white-background-7425603.jpg);
+    background-size: cover;
+   
+}
+
+
+
+.aboutme img{
+    height: auto;
+    width: 90%;
+    border-radius: 5%;
+}
+
+.main{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aboutme-text h2{
+    color: rgb(233, 65, 4);
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.aboutme-text p > span{
+    color: rgb(34, 94, 34);
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 45px;
+
+}
+
+.service{
+    background: url(../../Assets/white-background-7425603.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 50px 10px;
+    
+}
+
+.title h2{
+    color: rgb(34, 94, 34);
+    font-size: 40px;
+    margin: 40px auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    max-width: 1400px;
+    
+
+}
+
+
+
+.card{
+    height: 365px;
+    width: 100%px;
+    padding: 0px 0px;
+    background: rgb(19, 39, 19);
+    border-radius: 20px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .3);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all .50s ease;
+}
+
+.card:hover{
+    border: 1px solid white;
+    transform: translate(-5px) scale(1.03);
+ }
+
+
+.card .i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: orange;
+
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.praSpecial p{
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.card .button{
+    background-color:#c5650b;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    font-weight: bold;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #c5650b;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 778px) {
+    .homeContent{
+      font-size: 35px;
+      padding: 15px 15px;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 0.1rem .3rem;
+    }
+}
+@media screen and (max-width: 480px) {
+  .homeContent{font-size: 25px;
+  }
+  .btn{
+    font-size: 12px;
+}
+}
+
+/***************************** Media Quarry ****************************/
+@media screen and (max-width: 1060px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutme img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width: 920px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/***************************** Media Quarry ****************************/
+@media screen and (max-width: 690px) {
+    .title h2{
+        font-size: 45px;
+        }
+
+    .aboutme-text h2{
+        font-size: 35px;
+    }
+    .aboutme{
+        padding: 80px 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+    .title h2{
+        font-size: 30px;
+        }
+
+    .aboutme-text h2{
+        font-size: 30px;
+    }
+    .aboutme-text h5{
+        font-size: 20px;
+    }
+
+}
+
+/****************** Slide Card **********************/
+.slide-title{
+    color: rgb(34, 94, 34);
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-bottom: 40px;
+    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.slidebody{
+    background: url(../../Assets/white-background-7425603.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide-container{
+    max-width: 1400px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cardS{
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: rgb(1, 36, 1);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .3);
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 14px;
+}
+.image-content{
+    align-items: center;
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #c5650b;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background: #c5650b;
+    overflow: hidden;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color:  rgb(1, 36, 1);
+}
+.card-image{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 2px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 3px solid rgb(34, 94, 34);
+}
+.card-content h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #c5a30b;
+    font-weight: 600;
+    text-align: center;
+    z-index: 0;
+}
+.card-content h6{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+}
+.card-content h3{
+    font-size: 14px;
+    color:#c5650b;
+    
+}  
+.card-content h3 span{
+    color: rgb(226, 218, 218);
+    font-weight: 600;
+}
+
+
+ /************************** News ********************************/
+ .HomeNews{
+    background: url(../../Assets/white-background-7425603.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 80px 20px;
+ }
+ .Newscontainer{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0px auto;
+ }
+ .Newstitle h2{
+    color: rgb(34, 94, 34);
+    font-size: 30px;
+    text-align: left;
+}
+ .News-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+ }
+ .News-row img{
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 1.4rem;
+ }
+ .News-row{
+    background: #fff;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .3);
+    
+ }
+ .main-row{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+ }
+  .link-news-home{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(34, 94, 34) !important;
+    text-decoration: none;
+    padding: 0 10px;
+    
+ }
+
+ .row-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    font-size: 200px;
+    border-radius: 50%;
+ }
+ .News-row h4{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    padding: 0 10px;
+ }
+
+ @media screen and (max-width: 798px){
+    .News-row:hover{
+        transform: none;
+    }
+ }
+
+   /************************** Gallery ********************************/
+
+
+ .galleryBody{
+    background: url(../../Assets/white-background-7425603.jpg);
+    background-size: cover;
+    padding: 80px 20px;
+ }
+ .gallerytitle h2{
+    color: rgb(34, 94, 34);
+    font-size: 30px;
+    margin: 0px auto;
+    padding-bottom: 40px;
+    text-align: left;
+    max-width: 1400px;
+}
+ .gallery-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+ }
+ .gallery-row img{
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+ }
+ .gallery-row{
+    background: rgb(240, 160, 11);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .3);
+    transition: all .50s ease;
+ }

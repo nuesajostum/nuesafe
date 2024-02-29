@@ -1,0 +1,106 @@
+.signup-contain{
+    background: url(../../Assets/rm222-mind-19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+.su-box-area{
+        max-width: 1400px;
+        background: #fff;
+        margin: 0 20px;
+        text-align: center;
+        width: 50%;
+ 
+}
+.su-right-box{
+    padding: 20px 30px 40px 40px;
+}
+.su-header{
+    font-size: 25px;
+    color: orangered;
+    font-weight: 600;
+}
+    .f-control{
+        outline: none;
+        width: 100%;
+        border: 1px solid orange;
+        padding-left: 2rem;
+        display: flex;
+        align-items: center;
+        background-color: rgba(156, 228, 41, 0.808) !important;
+        border-radius: 6px;
+        color: rgb(61, 58, 58) !important;
+    
+    }
+  .form-select{
+    outline: none;
+    width: 100%;
+    border: 1px solid orange;
+    background-color: rgba(231, 255, 193, 0.808) !important;
+    padding-left: 2rem;
+  }
+  .f-select{
+    background-color: rgba(231, 255, 193, 0.808) !important;
+    border: 1px solid orange;
+    padding-left: 2rem;
+    font-size: 14px;
+    color: rgba(61, 58, 58, 0.719);
+}
+  .dob{
+    outline: none;
+    border: none;
+    width: 100%;
+  }
+  .ls
+    {
+    text-transform: uppercase;
+            
+    }
+    
+    .register-btn {
+    border-radius: 0.3rem;
+    color: #FFF !important;
+    background: rgb(34, 94, 34) !important;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .08);
+    cursor: pointer;
+    border: none;
+    }
+   
+.error{
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 990px) {
+    .su-box-area{
+        width: 100%;
+       
+    }
+}
+    @media screen and (max-width: 768px) {
+        .su-box-area{
+            width: 100%;
+           
+        }
+        .su-left-box{
+            text-align: center;
+            padding-bottom: 20px;
+            background-image: none;
+            background-color: #FFF;
+        }
+        .su-sbtxt2{
+            color: rgb(34, 94, 34) !important;
+        }
+        .su-right-box{
+            padding: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 460px) {
+        .su-header{
+            font-size: 20px;
+        }
+        
+    }
+  

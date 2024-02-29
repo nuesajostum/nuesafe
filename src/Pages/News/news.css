@@ -1,0 +1,107 @@
+.thumb{
+    width: 100%;
+}
+.main-news{
+    padding: 0%;
+    background: url(../../Assets/301.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main-news-row{
+    max-width: 1400px;
+    margin: auto;
+    padding: 50px 100px;
+}
+.main-news h3{
+    line-height: 0.75;
+}
+.main-news h1{
+    font-size: 600;
+}
+
+
+.link-news{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(34, 94, 34) !important;
+    text-decoration: none;
+    padding: 0 10px;
+    
+ }
+ .link-news:hover{
+    text-decoration: underline;
+    
+ }
+
+
+.image{
+    overflow: hidden;
+}
+.image-sm{
+    max-height: 180px;
+}
+.image-xs{
+    max-height: 160px;
+}
+.image-xxs{
+    max-height: 100px;
+}
+.image img{
+    object-fit: cover;
+    }
+    .section{
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+    }
+    small{
+        color: #999;
+    }
+    .summary{
+        color: #777;
+    }
+.section-title{
+    position: relative;
+    margin-bottom: 20px;
+}
+.section-title span{
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(34, 94, 34);
+}
+.section-title span:after{
+    content: '';
+    position: absolute;
+    background: #191919;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+}
+.trending .row{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+@media screen and (max-width: 1400px) {
+    .main-news-row{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-news-row{
+        margin: auto;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .link-news{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+        
+     }
+}

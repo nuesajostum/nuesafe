@@ -1,0 +1,82 @@
+.bi{
+    font-size: 30px !important;
+    color: #c5650b !important;
+   
+}
+.card-contact{
+    padding: 0 10px;
+    border-radius: 25px;
+    background-color: rgba(245, 255, 247, 0.808);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .3);
+    outline: none;
+}
+
+.card-contact a{
+    text-decoration: none;
+    color: rgb(34, 94, 34);
+}
+.contact-card-title{
+    font-weight: 600;
+    color: rgb(145, 96, 4);
+    font-size: 18px;
+}
+.contact-card-text{
+    font-size: 16px;
+    font-weight: semi bold;
+}
+.contact-wrapper {
+    color: rgb(0, 0, 0);
+    padding: 100px 0; 
+    background: url(../../Assets/300.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.card-row{
+    position: relative;
+    top: 70px;
+}
+.back-container{
+ 
+    position: relative;
+    top: 130px;
+}
+
+    .form-control{
+    height:50px;
+    outline: none;
+    border: none;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .08);
+    margin-bottom: 20px;
+    padding-left: 2rem;
+    background-color: rgba(252, 252, 252, 0.301) !important;
+    color: rgb(61, 58, 58);
+        
+    }
+
+    .contact-text-card{
+        margin-top: 40px;
+    }
+    .c-btn{
+        padding: 10px;
+        width: 100px;
+        border: none;
+        border-radius: 0.3rem;
+        color: #FFF !important;
+        background: rgb(14, 26, 14) !important;
+        box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .08);
+        cursor: pointer;
+}
+
+
+    .text-contact{
+        font-size: 45px;
+        
+    }
+.border-danger{
+    border-color: aliceblue !important;
+}
+    @media only screen and (max-width: 600px) {
+        .contact-wrapper{
+            height: 200% !important;
+        }
+      }

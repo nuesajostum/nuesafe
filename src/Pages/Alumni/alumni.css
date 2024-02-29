@@ -1,0 +1,127 @@
+.Al-contain{
+    background: url(../../Assets/300.jpg);
+   
+}
+.Al-box-area{
+    margin: 40px 0;
+    max-width: 1400px;
+    background: #fff;
+
+}
+.Al-left-box{
+    padding: 50px 40px;
+    background: url(../../Assets/rm222-mind-19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 25px;
+border-top-left-radius: 25px;
+}
+.Al-right-box{
+padding: 20px 30px 40px 40px;
+text-align: center;
+}
+.Al-header{
+        font-size: 25px;
+        color: orangered;
+        font-weight: 600;
+}
+.Al-sbtxt1{
+    color: rgb(34, 94, 34) !important;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 1;
+    }
+    .Al-sbtxt2 > span{
+        text-align: left;
+        font-size: 40px;
+        background: #c5650b;
+        color: aliceblue !important;
+        }
+        .f-control{
+            outline: none;
+            width: 100%;
+            border: 1px solid orange;
+            margin-bottom: 3px;
+            padding-left: 2rem;
+            display: flex;
+            align-items: center;
+            background-color: rgba(231, 255, 193, 0.808) !important;
+            border-radius: 6px;
+            color: rgb(61, 58, 58);
+        
+        }
+      .form-select{
+        outline: none;
+        width: 100%;
+        border: 1px solid orange;
+        background-color: rgba(231, 255, 193, 0.808) !important;
+        margin-bottom: 3px;
+        padding-left: 2rem;
+      }
+      .f-select{
+        background-color: rgba(231, 255, 193, 0.808) !important;
+        border: 1px solid orange;
+        margin-bottom: 3px;
+        padding-left: 2rem;
+        font-size: 14px;
+        color: rgba(61, 58, 58, 0.719);
+      }
+
+.ls
+{
+text-transform: uppercase;
+        
+}
+
+.Al-btn {
+border-radius: 0.3rem;
+color: #FFF !important;
+background: rgb(34, 94, 34) !important;
+box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, .08);
+cursor: pointer;
+border: none;
+}
+
+@media screen and (max-width: 962px){
+    .Al-sbtxt1{
+        font-size: 35px;
+        }
+    .Al-sbtxt2 > span{
+        font-size: 30px;
+        }
+}
+@media screen and (max-width: 768px) {
+    footer{
+        display: none;
+    }
+    .Al-box-area{
+        width: 100%;
+    }
+    .Al-left-box{
+        text-align: center;
+        padding-bottom: 20px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 0px;
+    }
+    .Al-sbtxt2 > span{
+        font-size: 30px;
+        }
+        .Al-sbtxt1{
+            font-size: 25px;
+            }
+    .Al-right-box{
+        padding: 20px;
+    }
+    .Al-header{
+        font-size: 20px;
+}
+}
+
+
+@media screen and (max-width: 460px) {
+    
+    .Al-sbtxt2 > span{
+        font-size: 20px;
+        }
+}
